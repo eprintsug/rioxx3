@@ -4,7 +4,80 @@
   <uri>http://localhost:8080/id/epm/rioxx3</uri>
   <documents>
     <document>
-      <format>other</format>
+      <files>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>epm/rioxx3/cfg/cfg.d/zz_rioxx3.pl</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>15226a6183fb3105386a77e8591718df</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>676</filesize>
+          <data encoding='base64'>JGMtPntwbHVnaW5zfXsnRXhwb3J0OjpSSU9YWDMnfXtwYXJhbXN9e2Rpc2FibGV9ID0gMDsKCiRj
+LT57cmlveHgzfS0+e2V4cG9ydF9tYXBwaW5nc30gPSB7CiAgICAicmlveHh0ZXJtczpjb250cmli
+dXRvciIgPT4gImNvbnRyaWJ1dG9yX3ZhbHVlIiwKICAgICJkYzppZGVudGlmaWVyIiA9PiAiaWRl
+bnRpZmllciIsCiAgICAiZGM6cmVsYXRpb24iID0+ICJyZWxhdGlvbiIsCiAgICAiZGM6dGl0bGUi
+ID0+ICJ0aXRsZSIsCn07CgokYy0+e3Jpb3h4M30tPnttYW5kYXRvcnlfZmllbGRzfSA9IFtxdygK
+ICAgIGRjOmlkZW50aWZpZXIKICAgIGRjOnR5cGUKICAgIGRjOnRpdGxlCiAgICBkYzpsYW5ndWFn
+ZQogICAgcmlveHh0ZXJtczpjcmVhdG9yCildOwoKJGMtPntyaW94eDN9LT57ImNvbnRyaWJ1dG9y
+X3ZhbHVlIn0gPSBzdWJ7CiAgICBteSggJHJlcG8sICRlcHJpbnQgKSA9IEBfOwoKICAgIG15ICRm
+cmFnID0gJHJlcG8tPm1ha2VfZG9jX2ZyYWdtZW50OwogICAgbXkgJGVsZW1lbnQgPSAkcmVwby0+
+bWFrZV9lbGVtZW50KCAicmlveHh0ZXJtczpjb250cmlidXRvciIgKTsKICAgICRlbGVtZW50LT5h
+cHBlbmRDaGlsZCggJHJlcG8tPm1ha2VfdGV4dCggImhlbGxvIHRoZXJlIiApICk7CiAgICAkZnJh
+Zy0+YXBwZW5kQ2hpbGQoICRlbGVtZW50ICk7CgogICAgcmV0dXJuICRmcmFnOwp9Cg==
+</data>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>plugins/EPrints/Plugin/Export/RIOXX3.pm</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>df786f2a69d4531685872cf0cd2ce948</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>2184</filesize>
+          <data encoding='base64'>cGFja2FnZSBFUHJpbnRzOjpQbHVnaW46OkV4cG9ydDo6UklPWFgzOwoKdXNlIGJhc2UgcXcoIEVQ
+cmludHM6OlBsdWdpbjo6RXhwb3J0OjpYTUxGaWxlICk7Cgp1c2Ugc3RyaWN0OwoKc3ViIG5ldwp7
+CglteSAoJGNsYXNzLCAlcGFyYW1zKSA9IEBfOwoKCW15ICRzZWxmID0gJGNsYXNzLT5TVVBFUjo6
+bmV3KCVwYXJhbXMpOwoKCSRzZWxmLT57YWNjZXB0fSA9IFtxdyggZGF0YW9iai9lcHJpbnQgKV07
+Cgkkc2VsZi0+e25hbWV9ID0gJ1JJT1hYMyBYTUwnOwoJJHNlbGYtPnttZXRhZGF0YVByZWZpeH0g
+PSAicmlveHgzIjsKCSRzZWxmLT57eG1sbnN9ID0gImh0dHA6Ly93d3cucmlveHgubmV0L3NjaGVt
+YS92My4wL3Jpb3h4LyIsCgkkc2VsZi0+e3NjaGVtYUxvY2F0aW9ufSA9ICJodHRwOi8vd3d3LnJp
+b3h4Lm5ldC9zY2hlbWEvdjMuMC9yaW94eC9yaW94eC54c2QiOwoKCXJldHVybiAkc2VsZjsKfQoK
+c3ViIG91dHB1dF9kYXRhb2JqCnsKCW15ICgkc2VsZiwgJGRhdGFvYmosICVvcHRzKSA9IEBfOwoK
+CW15ICRyID0gIiI7CglteSAkZiA9ICRvcHRze2ZofSA/IHN1YiB7IHByaW50IHskb3B0c3tmaH19
+IEBfIH0gOiBzdWIgeyAkciAuPSAkX1swXSB9OwoKCSYkZiggPDxIRUFEICk7Cjw/eG1sIHZlcnNp
+b249IjEuMCIgZW5jb2Rpbmc9IlVURi04Ij8+CkhFQUQKCgkmJGYoJHNlbGYtPnJlcG9zaXRvcnkt
+PnhtbC0+dG9fc3RyaW5nKAoJCSRzZWxmLT54bWxfZGF0YW9iaigkZGF0YW9iaiksCgkJaW5kZW50
+ID0+IDEsCgkpKTsKCglyZXR1cm4gJHI7Cn0KCnN1YiB4bWxfZGF0YW9iagp7CglteSAoJHNlbGYs
+ICRlcHJpbnQpID0gQF87CgoJbXkgJHJlcG8gPSAkc2VsZi0+cmVwb3NpdG9yeTsKCW15ICR4bWwg
+PSAkcmVwby0+eG1sOwoKCW15ICRyaW94eCA9ICR4bWwtPmNyZWF0ZV9lbGVtZW50KCdyaW94eCcs
+CgkJJ3htbG5zJyA9PiAkc2VsZi0+cGFyYW0oJ3htbG5zJyksCgkJJ3htbG5zOmFsaScgPT4gImh0
+dHA6Ly9hbGkubmlzby5vcmcvMjAxNC9hbGkvMS4wIiwKCQkneG1sbnM6ZGMnID0+ICJodHRwOi8v
+cHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIsCgkJJ3htbG5zOmRjdGVybXMnID0+ICJodHRwOi8v
+cHVybC5vcmcvZGMvdGVybXMvIiwKCQkneG1sbnM6cmlveHh0ZXJtcycgPT4gImh0dHA6Ly9kb2Nz
+LnJpb3h4Lm5ldC9zY2hlbWEvdjMuMC9yaW94eHRlcm1zLyIsCiAgICAgICAgJ3htbG5zOnhzaScg
+PT4gImh0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hLWluc3RhbmNlIiwKCQkneHNpOnNj
+aGVtYUxvY2F0aW9uJyA9PiAkc2VsZi0+cGFyYW0oJ3htbG5zJykuIiAiLiRzZWxmLT5wYXJhbSgn
+c2NoZW1hTG9jYXRpb24nKSwKCSk7CgoJbXkgQGRhdGE7CgogICAgZm9yZWFjaCBteSAkcmlveHgz
+X2ZpZWxkICgga2V5cyggJHJlcG8tPmNvbmZpZyggInJpb3h4MyIsICJleHBvcnRfbWFwcGluZ3Mi
+ICkgKSApCiAgICB7CiAgICAgICAgbXkgJHJpb3h4M19leHBvcnQgPSAkcmVwby0+Y29uZmlnKCAi
+cmlveHgzIiwgImV4cG9ydF9tYXBwaW5ncyIgKS0+eyRyaW94eDNfZmllbGR9OwogICAgICAgIG15
+ICRlbGVtZW50OwoKICAgICAgICBpZiggJHJlcG8tPmNhbl9jYWxsKCAicmlveHgzIiwgJHJpb3h4
+M19leHBvcnQgKSApCiAgICAgICAgewogICAgICAgICAgICAjIGNhbGwgaXQKICAgICAgICAgICAg
+JGVsZW1lbnQgPSAkcmVwby0+Y2FsbCggWyJyaW94eDMiLCAkcmlveHgzX2V4cG9ydF0sICRyZXBv
+LCAkZXByaW50ICk7CiAgICAgICAgfQogICAgICAgIGVsc2lmKCAkZXByaW50LT5leGlzdHNfYW5k
+X3NldCggJHJpb3h4M19leHBvcnQgKSApCiAgICAgICAgewogICAgICAgICAgICAkZWxlbWVudCA9
+ICRyZXBvLT5tYWtlX2VsZW1lbnQoICRyaW94eDNfZmllbGQgKTsKICAgICAgICAgICAgJGVsZW1l
+bnQtPmFwcGVuZENoaWxkKCAkcmVwby0+bWFrZV90ZXh0KCAkZXByaW50LT52YWx1ZSggJHJpb3h4
+M19leHBvcnQgKSApICk7CiAgICAgICAgfQogICAgICAgIGVsc2UKICAgICAgICB7CiAgICAgICAg
+ICAgICAkcmVwby0+bG9nKCAiQ2Fubm90IGZpbmQgUklPWFgzIG1hcHBpbmcgZm9yICRyaW94eDNf
+ZmllbGQ6ICRyaW94eDNfZXhwb3J0IiApOwogICAgICAgIH0KCiAgICAgICAgJHJpb3h4LT5hcHBl
+bmRDaGlsZCggICRlbGVtZW50ICkgaWYgZGVmaW5lZCAkZWxlbWVudDsKICAgIH0KCiAgICByZXR1
+cm4gJHJpb3h4OwoKfQoKMTsK
+</data>
+        </file>
+      </files>
+      <mime_type>text/plain</mime_type>
+      <format>text</format>
+      <main>plugins/EPrints/Plugin/Export/RIOXX3.pm</main>
       <content>install</content>
     </document>
   </documents>

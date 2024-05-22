@@ -4,7 +4,27 @@
   <uri>http://localhost:8080/id/epm/rioxx3</uri>
   <documents>
     <document>
-      <format>other</format>
+      <files>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>epm/rioxx3/cfg/cfg.d/zz_rioxx3.pl</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>15226a6183fb3105386a77e8591718df</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>676</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>plugins/EPrints/Plugin/Export/RIOXX3.pm</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>df786f2a69d4531685872cf0cd2ce948</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>2184</filesize>
+        </file>
+      </files>
+      <mime_type>text/plain</mime_type>
+      <format>text</format>
+      <main>plugins/EPrints/Plugin/Export/RIOXX3.pm</main>
       <content>install</content>
     </document>
   </documents>
