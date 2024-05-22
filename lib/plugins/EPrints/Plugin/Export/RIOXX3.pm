@@ -57,7 +57,7 @@ sub xml_dataobj
 
 	my @data;
 
-    foreach my $rioxx3_field ( keys( $repo->config( "rioxx3", "export_mappings" ) ) )
+    foreach my $rioxx3_field ( keys( %{$repo->config( "rioxx3", "export_mappings" )} ) )
     {
         my $rioxx3_export = $repo->config( "rioxx3", "export_mappings" )->{$rioxx3_field};
         my $element;
