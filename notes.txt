@@ -1,0 +1,28 @@
+For RIOXX3....
+
+For on the way out (exporting) we just need an export plugin, we don't need to worry about virtual fields or override fields
+
+Changes...
+
+<rioxxterms:grant> uses funders or funders_avanced where available
+
+<rioxxterms:project> now uses IDs not names... EPrints by and large never contains Project IDs :( but this is not a mandatory field - this will require a new field.... Projects Advanced plugin, or just an update to core? Or a new field in RIOXX?
+
+<rioxxterms:creator> uses creators/editors/contributors and uses ORCIDs where available (like RIOXX2)
+
+<rioxxterms:record_public_release_date> - datestamp field (i.e. when it went into live archive)
+
+<rioxxterms:ext_relation> - related urls, id_number (if it looks like a DOI), official_url
+
+
+Removal of...
+
+<ali:free_to_read>
+<rioxxterms:apc>
+<rioxxterms:version_of_record>
+
+
+
+Later....
+
+For importing RIOXX3 we want to explore the idea of a RIOXX dataobj that acts as a buffer between the import and the eprint dataobj.
