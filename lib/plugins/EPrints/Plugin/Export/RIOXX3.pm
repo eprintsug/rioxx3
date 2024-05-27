@@ -46,12 +46,11 @@ sub xml_dataobj
 	my $xml = $repo->xml;
 
 	my $rioxx = $xml->create_element('rioxx',
-		'xmlns' => $self->param('xmlns'),
-		'xmlns:ali' => "http://ali.niso.org/2014/ali/1.0",
+		# 'xmlns' => $self->param('xmlns'), #NB example XML files don't set the default(?)
 		'xmlns:dc' => "http://purl.org/dc/elements/1.1/",
 		'xmlns:dcterms' => "http://purl.org/dc/terms/",
 		'xmlns:rioxxterms' => "http://docs.rioxx.net/schema/v3.0/rioxxterms/",
-        'xmlns:xsi' => "http://www.w3.org/2001/XMLSchema-instance",
+		'xmlns:xsi' => "http://www.w3.org/2001/XMLSchema-instance",
 		'xsi:schemaLocation' => $self->param('xmlns')." ".$self->param('schemaLocation'),
 	);
 
